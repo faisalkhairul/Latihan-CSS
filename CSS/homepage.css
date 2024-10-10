@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+main{
+    flex: 1;
+}
+.menu{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.menu > h2{
+    padding-left: 225px;
+}
+.profil {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
+.profil p{
+    font-size: 15px;
+}
+footer{
+    background: gray;
+    text-align: center;
+    color: white;
+}
